@@ -9,13 +9,19 @@ public class first_task {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число: ");
         String  number = scanner.next();
-        int count = Integer.parseInt (number);
-        int result = 0;
-        while (count > 0){
-            result += count;
-            count --;
+        int count1 = Integer.parseInt (number);
+        int result1 = 0;
+        while (count1 > 0){
+            result1 += count1;
+            count1 --;
         }
-        System.out.println("Треугольное число равно " + result);
+        int count2 = Integer.parseInt (number);
+        int result2 = 1;
+        while (count2 > 1){
+            result2 = result2 * count2;
+            count2 --;
+        }
+        System.out.println("Треугольное число равно " + result1 + ", факториал числа равен " + result2 );
         scanner.close();
     }
 }
