@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
+        // Реализовать простой калькулятор (+-/*)
         System.out.println("Введите первое число: ");
         Scanner scanner = new Scanner(System.in);
         String  num1 = scanner.next();
